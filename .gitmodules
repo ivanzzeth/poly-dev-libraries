@@ -1,0 +1,69 @@
+[submodule "ethsig"]
+	path = go/web3/ethereum/ethsig
+	url = https://github.com/ivanzzeth/ethsig.git
+[submodule "ethclient"]
+	path = go/web3/ethereum/ethclient
+	url = https://github.com/ivanzzeth/ethclient.git
+[submodule "go-universal-data-containers"]
+	path = go/infrastructure/containers
+	url = https://github.com/ivanzzeth/go-universal-data-containers.git
+[submodule "ethtypes"]
+	path = go/web3/ethereum/ethtypes
+	url = https://github.com/ivanzzeth/ethtypes.git
+[submodule "polymarket-go"]
+	path = go/prediction-markets/polymarket/polymarket-go
+	url = https://github.com/ivanzzeth/polymarket-go.git
+[submodule "polymarket-go-contracts"]
+	path = go/prediction-markets/polymarket/polymarket-go-contracts
+	url = https://github.com/ivanzzeth/polymarket-go-contracts.git
+[submodule "polymarket-go-order-utils"]
+	path = go/prediction-markets/polymarket/polymarket-go-order-utils
+	url = https://github.com/ivanzzeth/polymarket-go-order-utils.git
+[submodule "polymarket-go-clob-client"]
+	path = go/prediction-markets/polymarket/polymarket-go-clob-client
+	url = https://github.com/ivanzzeth/polymarket-go-clob-client.git
+[submodule "polymarket-go-data-client"]
+	path = go/prediction-markets/polymarket/polymarket-go-data-client
+	url = https://github.com/ivanzzeth/polymarket-go-data-client.git
+[submodule "polymarket-go-real-time-data-client"]
+	path = go/prediction-markets/polymarket/polymarket-go-real-time-data-client
+	url = https://github.com/ivanzzeth/polymarket-go-real-time-data-client.git
+[submodule "polymarket-go-gamma-client"]
+	path = go/prediction-markets/polymarket/polymarket-go-gamma-client
+	url = https://github.com/ivanzzeth/polymarket-go-gamma-client.git
+[submodule "predict-go-contracts"]
+	path = go/prediction-markets/predict/predict-go-contracts
+	url = https://github.com/ivanzzeth/predict-go-contracts.git
+[submodule "predict-go-clob-client"]
+	path = go/prediction-markets/predict/predict-go-clob-client
+	url = https://github.com/ivanzzeth/predict-go-clob-client.git
+[submodule "predict-go-order-utils"]
+	path = go/prediction-markets/predict/predict-go-order-utils
+	url = https://github.com/ivanzzeth/predict-go-order-utils.git
+[submodule "probable-go-clob-client"]
+	path = go/prediction-markets/probable/probable-go-clob-client
+	url = https://github.com/ivanzzeth/probable-go-clob-client.git
+[submodule "probable-go-contracts"]
+	path = go/prediction-markets/probable/probable-go-contracts
+	url = https://github.com/ivanzzeth/probable-go-contracts.git
+[submodule "probable-go-order-utils"]
+	path = go/prediction-markets/probable/probable-go-order-utils
+	url = https://github.com/ivanzzeth/probable-go-order-utils.git
+[submodule "opinion-go-clob-client"]
+	path = go/prediction-markets/opinion/opinion-go-clob-client
+	url = https://github.com/ivanzzeth/opinion-go-clob-client.git
+[submodule "opinion-go-order-utils"]
+	path = go/prediction-markets/opinion/opinion-go-order-utils
+	url = https://github.com/ivanzzeth/opinion-go-order-utils.git
+[submodule "opinion-go-contracts"]
+	path = go/prediction-markets/opinion/opinion-go-contracts
+	url = https://github.com/ivanzzeth/opinion-go-contracts.git
+[submodule "opinion-go-real-time-data-client"]
+	path = go/prediction-markets/opinion/opinion-go-real-time-data-client
+	url = https://github.com/ivanzzeth/opinion-go-real-time-data-client.git
+[submodule "opinion-go-open-api"]
+	path = go/prediction-markets/opinion/opinion-go-open-api
+	url = https://github.com/ivanzzeth/opinion-go-open-api.git
+[submodule "ethclient.py"]
+	path = python/web3/ethereum/ethclient.py
+	url = https://github.com/ivanzzeth/ethclient.py.git

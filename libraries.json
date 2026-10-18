@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "libraries": [
+    {
+      "name": "ethsig",
+      "path": "go/web3/ethereum/ethsig",
+      "language": "go",
+      "domain": "web3/ethereum",
+      "kind": "library",
+      "repository": "https://github.com/ivanzzeth/ethsig.git",
+      "module": "github.com/ivanzzeth/ethsig",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "ethclient",
+      "path": "go/web3/ethereum/ethclient",
+      "language": "go",
+      "domain": "web3/ethereum",
+      "kind": "client",
+      "repository": "https://github.com/ivanzzeth/ethclient.git",
+      "module": "github.com/ivanzzeth/ethclient",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "go-universal-data-containers",
+      "path": "go/infrastructure/containers",
+      "language": "go",
+      "domain": "infrastructure",
+      "kind": "containers",
+      "repository": "https://github.com/ivanzzeth/go-universal-data-containers.git",
+      "module": "github.com/ivanzzeth/go-universal-data-containers",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "ethtypes",
+      "path": "go/web3/ethereum/ethtypes",
+      "language": "go",
+      "domain": "web3/ethereum",
+      "kind": "library",
+      "repository": "https://github.com/ivanzzeth/ethtypes.git",
+      "module": "github.com/ivanzzeth/ethtypes",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "polymarket-go",
+      "path": "go/prediction-markets/polymarket/polymarket-go",
+      "language": "go",
+      "domain": "prediction-markets/polymarket",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/polymarket-go.git",
+      "module": "github.com/ivanzzeth/polymarket-go",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "polymarket-go-contracts",
+      "path": "go/prediction-markets/polymarket/polymarket-go-contracts",
+      "language": "go",
+      "domain": "prediction-markets/polymarket",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/polymarket-go-contracts.git",
+      "module": "github.com/ivanzzeth/polymarket-go-contracts/v2",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "polymarket-go-order-utils",
+      "path": "go/prediction-markets/polymarket/polymarket-go-order-utils",
+      "language": "go",
+      "domain": "prediction-markets/polymarket",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/polymarket-go-order-utils.git",
+      "module": "github.com/ivanzzeth/polymarket-go-order-utils/v2",
+      "license_file": null
+    },
+    {
+      "name": "polymarket-go-clob-client",
+      "path": "go/prediction-markets/polymarket/polymarket-go-clob-client",
+      "language": "go",
+      "domain": "prediction-markets/polymarket",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/polymarket-go-clob-client.git",
+      "module": "github.com/ivanzzeth/polymarket-go-clob-client",
+      "license_file": null
+    },
+    {
+      "name": "polymarket-go-data-client",
+      "path": "go/prediction-markets/polymarket/polymarket-go-data-client",
+      "language": "go",
+      "domain": "prediction-markets/polymarket",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/polymarket-go-data-client.git",
+      "module": "github.com/ivanzzeth/polymarket-go-data-client",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "polymarket-go-real-time-data-client",
+      "path": "go/prediction-markets/polymarket/polymarket-go-real-time-data-client",
+      "language": "go",
+      "domain": "prediction-markets/polymarket",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/polymarket-go-real-time-data-client.git",
+      "module": "github.com/ivanzzeth/polymarket-go-real-time-data-client",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "polymarket-go-gamma-client",
+      "path": "go/prediction-markets/polymarket/polymarket-go-gamma-client",
+      "language": "go",
+      "domain": "prediction-markets/polymarket",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/polymarket-go-gamma-client.git",
+      "module": "github.com/ivanzzeth/polymarket-go-gamma-client",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "predict-go-contracts",
+      "path": "go/prediction-markets/predict/predict-go-contracts",
+      "language": "go",
+      "domain": "prediction-markets/predict",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/predict-go-contracts.git",
+      "module": "github.com/ivanzzeth/predict-go-contracts",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "predict-go-clob-client",
+      "path": "go/prediction-markets/predict/predict-go-clob-client",
+      "language": "go",
+      "domain": "prediction-markets/predict",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/predict-go-clob-client.git",
+      "module": "github.com/ivanzzeth/predict-go-clob-client",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "predict-go-order-utils",
+      "path": "go/prediction-markets/predict/predict-go-order-utils",
+      "language": "go",
+      "domain": "prediction-markets/predict",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/predict-go-order-utils.git",
+      "module": "github.com/ivanzzeth/predict-go-order-utils",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "probable-go-clob-client",
+      "path": "go/prediction-markets/probable/probable-go-clob-client",
+      "language": "go",
+      "domain": "prediction-markets/probable",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/probable-go-clob-client.git",
+      "module": "github.com/ivanzzeth/probable-go-clob-client",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "probable-go-contracts",
+      "path": "go/prediction-markets/probable/probable-go-contracts",
+      "language": "go",
+      "domain": "prediction-markets/probable",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/probable-go-contracts.git",
+      "module": "github.com/ivanzzeth/probable-go-contracts",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "probable-go-order-utils",
+      "path": "go/prediction-markets/probable/probable-go-order-utils",
+      "language": "go",
+      "domain": "prediction-markets/probable",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/probable-go-order-utils.git",
+      "module": "github.com/ivanzzeth/probable-go-order-utils",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "opinion-go-clob-client",
+      "path": "go/prediction-markets/opinion/opinion-go-clob-client",
+      "language": "go",
+      "domain": "prediction-markets/opinion",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/opinion-go-clob-client.git",
+      "module": "github.com/ivanzzeth/opinion-go-clob-client",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "opinion-go-order-utils",
+      "path": "go/prediction-markets/opinion/opinion-go-order-utils",
+      "language": "go",
+      "domain": "prediction-markets/opinion",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/opinion-go-order-utils.git",
+      "module": "github.com/ivanzzeth/opinion-go-order-utils",
+      "license_file": null
+    },
+    {
+      "name": "opinion-go-contracts",
+      "path": "go/prediction-markets/opinion/opinion-go-contracts",
+      "language": "go",
+      "domain": "prediction-markets/opinion",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/opinion-go-contracts.git",
+      "module": "github.com/ivanzzeth/opinion-go-contracts",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "opinion-go-real-time-data-client",
+      "path": "go/prediction-markets/opinion/opinion-go-real-time-data-client",
+      "language": "go",
+      "domain": "prediction-markets/opinion",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/opinion-go-real-time-data-client.git",
+      "module": "github.com/ivanzzeth/opinion-go-real-time-data-client",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "opinion-go-open-api",
+      "path": "go/prediction-markets/opinion/opinion-go-open-api",
+      "language": "go",
+      "domain": "prediction-markets/opinion",
+      "kind": "sdk",
+      "repository": "https://github.com/ivanzzeth/opinion-go-open-api.git",
+      "module": "github.com/ivanzzeth/opinion-go-open-api",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "ethclient.py",
+      "path": "python/web3/ethereum/ethclient.py",
+      "language": "python",
+      "domain": "web3/ethereum",
+      "kind": "client",
+      "repository": "https://github.com/ivanzzeth/ethclient.py.git",
+      "module": null,
+      "license_file": "LICENSE"
+    }
+  ]
+}
