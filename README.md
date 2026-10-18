@@ -44,7 +44,7 @@ git submodule update --init --recursive
 - [架构与边界](docs/architecture.md)
 - [新增、升级与迁移流程](docs/contributing.md)
 - [组件状态与首批演进](docs/roadmap.md)
-- [共享模式](patterns/README.md) · [Transactional Outbox 草案](patterns/outbox.md)
+- [共享模式](patterns/README.md) · [Outbox 契约与验证进度](patterns/outbox.md)
 
 `make check` 校验清单、Git 子模块、固定提交、目录分类及生成目录的一致性；`make check-checkouts` 进一步检查本地子模块版本和 Go module 路径。它们不运行 SDK 网络调用或组件业务测试，不能代替组件自身 CI。
 

@@ -5,6 +5,6 @@
 
 | 模式 | 计划归属 | 状态 |
 |---|---|---|
-| [Transactional Outbox](outbox.md) | Go containers/outbox；其他语言按需实现 | 草案，未实现／未验收 |
+| [Transactional Outbox](outbox.md) | Go containers/outbox；其他语言按需实现 | Go 三后端已实现；压测／故障切换验收未完成 |
 
 可执行测试向量与各语言适配器随实现交付，不用空目录或静态“通过”标记代替实际验证。
